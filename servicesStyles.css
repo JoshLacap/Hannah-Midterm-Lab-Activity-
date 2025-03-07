@@ -1,0 +1,170 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(132, 129, 129);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: rgb(238, 238, 238);
+    padding: 20px;
+}
+
+.main-content {
+    flex: 1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.main-content img {
+    margin-bottom: 15px;
+}
+
+.service {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.service img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.learn-more {
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.learn-more:hover {
+    background-color: rgb(14, 133, 225);
+    color: white;
+}
+
+.plans {
+    margin-top: 30px;
+    text-align: center;
+    color: black;
+}
+
+.plans h2 {
+    color: white;
+}
+
+.plans h3 {
+    color: rgb(14, 133, 225);
+}
+
+
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px; 
+    padding: 20px;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap:nowrap;
+    overflow-x: auto;
+}
+
+.plan-card {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px; 
+    height: 250px; 
+    padding: 15px;
+    background: rgb(238, 238, 238);
+    border-radius: 10px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.subscribe {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px; 
+    align-self: center; 
+}
+
+.subscribe:hover {
+    background-color: rgb(14, 133, 225);
+}
+
+.adverts {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.adverts .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}

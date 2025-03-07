@@ -1,0 +1,123 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(132, 129, 129);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main-content {
+    flex: 1;
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    max-width: 1000px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner {
+        margin-top: -5px;
+        width: 100%; 
+        height: 200px;
+        background: url('assets/profile.png') no-repeat center bottom;
+        background-size: cover; 
+        background-attachment: fixed; 
+        background-position: center 100%;
+}
+
+
+.main-content h2 {
+    text-align: center;
+}
+
+.main-content p {
+    text-align: justify;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    margin-top: 35px;
+}
+
+button.talk-to-us {
+    display: block;
+    margin: 20px auto;
+    padding: 8px 20px;
+    border-color: #060505;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: none;
+    margin-top: 40px;
+}
+
+button.talk-to-us:hover {
+    background-color: rgb(14, 133, 225);
+    color: white;
+}
+
+hr {
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.adverts {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: #f1f1f1;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.adverts .close-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
